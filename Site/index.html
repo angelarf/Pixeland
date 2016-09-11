@@ -14,33 +14,11 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
-		<div id="page-wrapper">
+		<div id="page-wrapper" style="background-color:white;">
 			<!-- Header -->
 				<div id="header-wrapper">
 					<div id="header" class="container">
 						<!--Caixa de login-->
-						<div id="#login">
-							<section style="text-align: center;">
-								<form method="post" action="#">
-									<div class="row 50%">
-										<div class="3u 12u(mobile)">
-											<input name="user" placeholder="Usuario" type="text" />
-										</div>
-									</div>
-									<div class="row 50%" style="">
-										<div class="3u 12u(mobile)">
-											<input name="password" placeholder="Senha" type="text" />
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="12u">
-											<a href="#" class="form-button-submit button icon fa-key">Entrar</a>
-										</div>
-									</div>
-								</form>
-							</section>
-						</div>
-						
 						<!-- Logo -->
 							<h1 id="logo"><a href="index.html">Pixeland</a></h1>
 							<p>Em busca do pixel perdido</p>
@@ -76,7 +54,49 @@
 
 					</div>
 				</div>
-			
+				<!--Login-->
+				<div id="login" class="container" >
+					<div class="row">
+						<div class="7u 12u(mobile)">
+							<section>
+								<form method="post" action="#">
+									<div class="row 50%">
+										<div class="5u 12u(mobile)">
+											<input name="user" placeholder="Usuário" type="text" />
+										</div>
+									</div>
+									<div class="row 50%" style="background-color:white;">
+										<div class="5u 12u(mobile)">
+											<input name="password" placeholder="Senha" type="text" />
+										</div>
+									</div>
+									<div class="row 50%">
+										<div class="12u">
+											<a href="#" class="form-button-submit button icon fa-key">Entrar</a>
+										</div>
+									</div>
+								</form>
+							</section>
+						</div>
+						<div class="3u 12u(mobile)" id="texto-antes">
+							<section id="texto-antes">
+								<p><strong>Área reservada para nossos clientes!</strong></p>
+								<p>Digite seu nome de usuário e senha para acompanhar seu produto :)
+								</p>
+							</section>
+							<section id="texto-professor">
+								<p><strong>
+									Acompanhe o andamento do projeto <a href=#> aqui.</a>
+								</strong></p>
+							</section>
+							<section id="texto-cliente">
+								<p><strong>
+									Olá! Estamos trabalhando para que o seu game fique perfeito! Entre nessa <a href=#>pasta</a> para acompanhá-lo.
+								</strong></p>
+							</section>
+						</div>
+					</div>	
+				</div>		
 			<!-- Features QUEM SOMOS-->
 			<div id="quemsomos">
 				<div id="features-wrapper">
