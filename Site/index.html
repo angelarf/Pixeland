@@ -15,11 +15,32 @@
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
-
 			<!-- Header -->
 				<div id="header-wrapper">
 					<div id="header" class="container">
-
+						<!--Caixa de login-->
+						<div id="#login">
+							<section style="text-align: center;">
+								<form method="post" action="#">
+									<div class="row 50%">
+										<div class="3u 12u(mobile)">
+											<input name="user" placeholder="Usuario" type="text" />
+										</div>
+									</div>
+									<div class="row 50%" style="">
+										<div class="3u 12u(mobile)">
+											<input name="password" placeholder="Senha" type="text" />
+										</div>
+									</div>
+									<div class="row 50%">
+										<div class="12u">
+											<a href="#" class="form-button-submit button icon fa-key">Entrar</a>
+										</div>
+									</div>
+								</form>
+							</section>
+						</div>
+						
 						<!-- Logo -->
 							<h1 id="logo"><a href="index.html">Pixeland</a></h1>
 							<p>Em busca do pixel perdido</p>
@@ -47,15 +68,15 @@
 									</li>
 									<li><a class="icon fa-sitemap" href="no-sidebar.html"><span>No Sidebar</span></a></li>
 									<li><a class="icon fa-cog" href="left-sidebar.html"><span>Left Sidebar</span></a></li>-->
-									<li><a class="icon fa-gear" href="#quemsomos"><span>Quem Somos</span></a></li>
-									<li><a class="icon fa-retweet" href="#contato"><span>Contato</span></a></li>
-									
+									<li><a class="icon fa-question" href="#quemsomos"><span>Quem Somos</span></a></li>
+									<li><a class="icon fa-envelope" href="#contato"><span>Contato</span></a></li>
+									<li><a class="icon fa-key" href="#login"><span>Área Restrita</span></a></li>
 								</ul>
 							</nav>
 
 					</div>
 				</div>
-
+			
 			<!-- Features QUEM SOMOS-->
 			<div id="quemsomos">
 				<div id="features-wrapper">
@@ -74,13 +95,14 @@
 
 								<!-- Feature -->
 									<section>
-										<img class="image featured" src="images/pic01.jpg" alt="" />
+										<img class="image featured" src="images/pic03.jpg" alt="" />
 										<header>
-											<h3>Tecnologias com que trabalhamos</h3>
+											<h3>Nossa missão</h3>
 										</header>
-										<p>Sempre pensamos no  <strong>melhor</strong> para o seu projeto! Por isso trabalhamos com as melhores tecnologias. Entre elas: Unity, C#, Visal Studio, Intel RealSense.</p>
+										<p><strong>Skel</strong> is a lightweight framework for building responsive
+										sites and apps. All of my stuff at <a href="http://html5up.net">HTML5 UP</a> (including this
+										one) are built on this framework.</p>
 									</section>
-
 							</div>
 							<div class="4u 12u(mobile)">
 
@@ -98,15 +120,12 @@
 
 								<!-- Feature -->
 									<section>
-										<img class="image featured" src="images/pic03.jpg" alt="" />
+										<img class="image featured" src="images/pic01.jpg" alt="" />
 										<header>
-											<h3>COLOCAR ALGO AQUI</h3>
+											<h3>Tecnologias com que trabalhamos</h3>
 										</header>
-										<p><strong>Skel</strong> is a lightweight framework for building responsive
-										sites and apps. All of my stuff at <a href="http://html5up.net">HTML5 UP</a> (including this
-										one) are built on this framework.</p>
+										<p>Sempre pensamos no  <strong>melhor</strong> para o seu projeto! Por isso trabalhamos com as melhores tecnologias. Entre elas: Unity, C#, Visal Studio, Intel RealSense.</p>
 									</section>
-
 							</div>
 						</div>
 						<!--<ul class="actions">
@@ -292,7 +311,8 @@
 				<div id="footer-wrapper">
 					<div id="footer" class="container">
 						<header>
-							<h2>Questions or comments? <strong>Get in touch:</strong></h2>
+							<h2>Quer ser nosso pixel? <strong>Entre em contato:</strong></h2>
+							<p>Dúvidas e comentários também são bem vindos :)</p>
 						</header>
 						<div class="row">
 							<div class="6u 12u(mobile)">
@@ -300,20 +320,20 @@
 									<form method="post" action="#">
 										<div class="row 50%">
 											<div class="6u 12u(mobile)">
-												<input name="name" placeholder="Name" type="text" />
+												<input name="name" placeholder="Nome" type="text" />
 											</div>
 											<div class="6u 12u(mobile)">
-												<input name="email" placeholder="Email" type="text" />
+												<input name="email" placeholder="E-mail" type="text" />
 											</div>
 										</div>
 										<div class="row 50%">
 											<div class="12u">
-												<textarea name="message" placeholder="Message"></textarea>
+												<textarea name="message" placeholder="Mensagem"></textarea>
 											</div>
 										</div>
 										<div class="row 50%">
 											<div class="12u">
-												<a href="#" class="form-button-submit button icon fa-envelope">Send Message</a>
+												<a href="#" class="form-button-submit button icon fa-envelope">Enviar Mensagem</a>
 											</div>
 										</div>
 									</form>
@@ -321,26 +341,24 @@
 							</div>
 							<div class="6u 12u(mobile)">
 								<section>
-									<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet
-									mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur
-									leo nibh, rutrum eu malesuada.</p>
+									<p>Caso prefira, entre em contato por nosso email: </p>
 									<div class="row">
 										<div class="6u 12u(mobile)">
 											<ul class="icons">
-												<li class="icon fa-home">
+												<!--<li class="icon fa-home">
 													1234 Somewhere Road<br />
 													Nashville, TN 00000<br />
 													USA
 												</li>
 												<li class="icon fa-phone">
 													(000) 000-0000
-												</li>
+												</li>-->
 												<li class="icon fa-envelope">
-													<a href="#">info@untitled.tld</a>
+													<a href="#">pixeland2dgames@gmail.com</a>
 												</li>
 											</ul>
 										</div>
-										<div class="6u 12u(mobile)">
+										<!--<div class="6u 12u(mobile)">
 											<ul class="icons">
 												<li class="icon fa-twitter">
 													<a href="#">@untitled-tld</a>
@@ -355,7 +373,7 @@
 													<a href="#">facebook.com/untitled-tld</a>
 												</li>
 											</ul>
-										</div>
+										</div>-->
 									</div>
 								</section>
 							</div>
