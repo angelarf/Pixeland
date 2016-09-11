@@ -1335,11 +1335,11 @@
 		margin: 0 0 1em 0;
 	}
 
-	form input[type="text"],
-	form input[type="email"],
-	form input[type="password"],
-	form select,
-	form textarea {
+	input[type="text"],
+	input[type="email"],
+	input[type="password"],
+	select,
+	textarea {
 		-moz-transition: background-color 0.25s ease-in-out;
 		-webkit-transition: background-color 0.25s ease-in-out;
 		-ms-transition: background-color 0.25s ease-in-out;
@@ -1355,15 +1355,15 @@
 		padding: 0.75em 1em 0.75em 1em;
 	}
 
-		form input[type="text"]:focus,
-		form input[type="email"],
-		form input[type="password"]:focus,
-		form select:focus,
-		form textarea:focus {
+		input[type="text"]:focus,
+		input[type="email"],
+		input[type="password"]:focus,
+		select:focus,
+		textarea:focus {
 			background: #f0f0f0;
 		}
 
-	form textarea {
+	textarea {
 		min-height: 11em;
 	}
 
@@ -1603,19 +1603,19 @@
 		background: #f0f0f0;
 	}
 
-		#footer-wrapper form input[type="text"],
-		#footer-wrapper form input[type="email"],
-		#footer-wrapper form input[type="password"],
-		#footer-wrapper form select,
-		#footer-wrapper form textarea {
+		#footer-wrapper input[type="text"],
+		#footer-wrapper input[type="email"],
+		#footer-wrapper input[type="password"],
+		#footer-wrapper select,
+		#footer-wrapper textarea {
 			background: #f7f7f7;
 		}
 
-			#footer-wrapper form input[type="text"]:focus,
-			#footer-wrapper form input[type="email"]:focus,
-			#footer-wrapper form input[type="password"]:focus,
-			#footer-wrapper form select:focus,
-			#footer-wrapper form textarea:focus {
+			#footer-wrapper input[type="text"]:focus,
+			#footer-wrapper input[type="email"]:focus,
+			#footer-wrapper input[type="password"]:focus,
+			#footer-wrapper select:focus,
+			#footer-wrapper textarea:focus {
 				background: #fff;
 			}
 
@@ -1746,7 +1746,6 @@
 /* Copyright */
 
 	#copyright {
-		border-top: solid 2px #e5e5e5;
 		text-align: center;
 	}
 
@@ -2016,11 +2015,11 @@
 				}
 
 		/* Copyright */
-
 			#copyright {
-				margin-top: 6em;
-				padding-top: 4em;
+				margin-top: 1em;
+				padding-top: 1em;
 			}
+
 
 	}
 
@@ -2107,8 +2106,8 @@
 		/* Copyright */
 
 			#copyright {
-				margin-top: 5em;
-				padding-top: 2em;
+				margin-top: 1em;
+				padding-top: 1em;
 			}
 
 	}
@@ -2481,16 +2480,21 @@
 		/* Copyright */
 
 			#copyright {
-				margin-top: 2em;
-				padding-top: 2em;
+				margin-top: 1em;
+				padding-top: 1em;
 			}
 
 	}
 
 /*Angela*/
 #login {
-	margin-top: 10px;
-	padding-bottom: 20px;
+	margin-top: 30px;
+	padding-bottom: 30px;
 	border-bottom: solid 2px #e5e5e5;
-	box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
+	box-shadow: inset 0px -8px 0px 0px #f0f0f0, inset 0px -10px 0px 0px #e5e5e5;
+}
+#footer{
+	padding-bottom: 40px;
+	border-bottom: solid 2px #e5e5e5;
+	box-shadow: inset 0px -8px 0px 0px #f0f0f0, inset 0px -10px 0px 0px #e5e5e5;
 }
