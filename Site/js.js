@@ -38,4 +38,4 @@ function ready() {
 }
 
 
-$(ready);
+ready();
