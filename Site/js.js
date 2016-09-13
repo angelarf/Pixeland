@@ -37,5 +37,5 @@ function ready() {
     });  
 }
 
-$("#texto-cliente").show();
+//$("#texto-cliente").show();
 $(ready);
